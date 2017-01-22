@@ -11,7 +11,7 @@
     android:orientation="vertical"
     tools:context="com.example.chinesepronunciationapp.MainActivity">
 
-    <TextView android:id="@+id/question"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World! This is our Chinese Pronunciation App." />

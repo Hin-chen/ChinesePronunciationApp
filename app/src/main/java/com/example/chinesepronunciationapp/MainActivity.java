@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
-import android.widget.TextView;
 
 import java.util.HashMap;
 
@@ -16,13 +15,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        words.put("say","a");
-        words.put("bee","b");
+        words.put("a","say");
+        words.put("b","bee");
 
         RadioButton opt1 = (RadioButton) findViewById(R.id.opt1);
         RadioButton opt2 = (RadioButton) findViewById(R.id.opt2);
 
-        TextView t = (TextView) findViewById(R.id.question);
         opt1.setText(words.get(words.keySet().toArray()[0]));
         opt2.setText(words.get(words.keySet().toArray()[1]));
 
