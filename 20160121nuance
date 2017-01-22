@@ -1,0 +1,30 @@
+AI and API services from Nuance
+
+webapi:
+websocket/http
+speech rec, tts, nlu, voice biometric
+webtool(nes) to build your own
+
+AI:
+automating learning to optimize chances of success towards achieving a particular goal
+
+Learning:
+Collect Data, Train, Validate, Publish
+ideally eliminating validation by making it trivial; typically done by someone, but maybe automated eventually so it can do it itself
+
+Building Virtual Assistant Speech-Powered App:
+1. Listen
+2. Transcribe/Recognize
+3: understand, funnel it - narrowing down on what the user means - NLU
+4. Dialog - interaction out
+every step requires feedback; expensive for speech recognition because need live transcriptions by humans to verify
+
+
+"I want to pay $23404 on my mastercard"
+maps to AMOUNT and PAYEE
+can use to say " I think it is "
+
+NMAID:
+Nuance_ConUHack2017_20170119_210049 
+NMAID_Key
+0d11e9c5b897eefdc7e0aad840bf4316a44ea91f0d76a2b053be294ce95c7439dee8c3a6453cf7db31a12e08555b266d54c2300470e4140a4ea4c8ba285962fd
